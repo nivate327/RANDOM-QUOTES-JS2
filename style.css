@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+
+body {
+    font-size: 15pt;
+      background: linear-gradient(to right, #C0FF97, #AAE7EC);
+}
+
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
+}
+
+.myCard
+{
+  width:100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card
+{
+  width:35rem;
+  height:20rem;
+  border:7px solid #7FE4E3;
+}
+
+
+.card-text
+{
+  color:gray;
+}
+
+.btn
+{
+  display: block;
+  margin:2rem auto;
+  background: #fff !important;
+  color:#7FE4E3 !important;
+  padding:.7rem 3rem !important;
+  transition: all 0.4s linear;
+  border:3px solid #7FE4E3 !important;
+}
+
+.btn:hover
+{
+  background: #7FE4E3 !important;
+  color: white !important;
+  border:3px solid #fff !important;
+  box-shadow: none !important;
+}
+
+.author
+{
+  color:gray;
+  font-family: 'MonteCarlo', cursive;
+  font-size: 1.5rem;
+}
+
+@media(max-width:360px)
+{
+  .card
+  {
+   width:20rem;
+   height:20rem;
+   border:7px solid #7FE4E3;
+   margin-top:0 !important;
+  }
+
+}
+
+@media(max-width:720px)
+{
+  .card
+  {
+   margin-top:15rem;
+   width:20rem;
+   height:20rem;
+   border:7px solid #7FE4E3;
+  }
+  
+  
+
+}
